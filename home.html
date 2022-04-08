@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello World</p>
+
+      <iframe
+        src="https://drive.google.com/file/d/1uUXSgNwwVBLwa03G7JJVpTUDExNNV30z/preview"
+        width="500"
+        height="375"
+        allow="autoplay"
+      ></iframe>
+
+      <p>
+        Hello, and welcome to this website! It's not Zombo.com, but you can still do
+        pretty much anything while your here (local laws and regulations do apply, please
+        keep it civil).
+      </p>
+
+      <p>
+        Simply by visiting this very site, we are able to determine the following things
+        about you:
+      </p>
+      <ul>
+        • You are a person of genuinely good taste.<br />
+      </ul>
+      <ul>
+        • You probably haven't actively made anyone cry in at least one week.
+      </ul>
+      <ul>
+        • It is more than likely that when people think of you, they are reminded of the
+        smell of cinnamon (or possibly lavender).
+      </ul>
+
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" placeholder="Name" id="name" />
+
+        Message:
+        <input type="textarea" placeholder="What would you like to say?" id="message" />
+
+        <p>
+          Let Us Know How You Found Us!<br />
+          (Choose As Many As You Like, We Won't Judge!)
+        </p>
+        <div>
+          <input type="checkbox" id="google" name="google" />
+          <label for="google">Google!</label>
+        </div>
+
+        <input type="checkbox" id="family" name="family" />
+        <label for="family">fambly!</label>
+        <input type="checkbox" id="other" name="other" checked />
+        <label for="other">other</label>
+
+        <input type="submit" />
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>
